@@ -232,6 +232,10 @@ h2 {
     background-color: #7780e0fd;
     color: #fff;
 }
+
+footer {
+    background-color: rgb(52, 53, 54);
+}
 .container-nero {
     display: flex;
     justify-content: center;
@@ -243,7 +247,7 @@ h2 {
 }
 .nav-finale {
     flex-basis: 20%;
-    min-height: 550px;
+    min-height: 400px;
 }
 
 h3 {
@@ -279,7 +283,7 @@ h3 {
 
 .nav-finale-verde {
     flex-basis: 13%;
-    min-height: 550px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     padding-top: 6%;
@@ -299,15 +303,22 @@ h3 {
 
 hr {
     color: #7780e0fd;
+    width: 56%;
+    border: 1px solid;
+    margin: auto;
+}
+
+#hr {
+    margin-bottom: 20px;
 }
 
 .final {
     justify-content: space-around;
     height: 100%;
     display: flex;
-    background-color: rgb(52, 53, 54);
     padding-bottom: 40px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .final a {
