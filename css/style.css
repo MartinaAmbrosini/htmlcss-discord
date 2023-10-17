@@ -169,7 +169,7 @@ h2 {
 .flex-container-grigio {
     display: flex;
     background-color: rgb(193, 195, 196);
-    height: 900px;
+    height: 1400px;
     justify-content:center;
     align-self:center;
     position: relative;
@@ -186,7 +186,7 @@ h2 {
 
 .text-ontop1 {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     display: block;
     transform: translate(-50%, -50%);
@@ -196,22 +196,41 @@ h2 {
 
 .text-ontop2 {
     position: absolute;
-    top: 55%;
+    top: 49%;
     left: 50%;
     display: block;
     transform: translate(-50%, -50%);
-    
+    width: 60%;
 }
 
 .text-ontop3 {
-    position: absolute;
-    top: 88%;
-    left: 50%;
-    display: block;
-    transform: translate(-50%, -50%);
-    font-weight: 700;
+    margin-top: 5%;
     font-size: 30px;
-    line-height: 120%  
+    font-weight: bolder;
+}
+
+.item {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 80px;
+}
+
+#download1 {
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-top: 24px ;
+    margin-right: 24px;
+    margin-left: 6%;
+    background-color: #7780e0fd;
+    color: #fff;
 }
 .container-nero {
     display: flex;
@@ -221,46 +240,77 @@ h2 {
     /* Debug */
     background-color: rgb(52, 53, 54);
     padding: 20px 0;
-    margin-bottom: 1px;
 }
-
 .nav-finale {
     flex-basis: 20%;
-    background-color: rgb(228, 130, 180);
     min-height: 550px;
-    border-style: dashed;
+}
+
+h3 {
+    align-self: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #7780e0fd;
+    margin-top: 10%;
+
+}
+
+#Ita {
+    margin-top: 15px;
+    width: 24px;
+    height: 16px;
+    
+}
+
+#selettore {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    margin-left: 3px;
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
 }
 
 .nav-finale-verde {
     flex-basis: 13%;
-    background-color: rgb(57, 170, 151);
     min-height: 550px;
-    border-style: dashed; color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6%;
+    color: #fff;
+    padding-left: 1%;
+
 }
 
+.nav-finale-verde span {
+    margin-bottom: 15px;
+}
 
-.flex-container3 {
+.titoletti {
+    color: #7780e0fd;
+    font-weight: bolder;
+}
+
+hr {
+    color: #7780e0fd;
+}
+
+.final {
+    justify-content: space-around;
+    height: 100%;
     display: flex;
     background-color: rgb(52, 53, 54);
-    height: 70px;
-    margin-bottom: 1px;
-    justify-content: center;
+    padding-bottom: 40px;
+    align-items: center;
 }
 
-.container3{
-    background-color: aquamarine;
-    display: flex;
-    width: 55%;
-    justify-content: space-between;
-    margin-top: 13px ;
-    padding: 7px 0;
-}
-
-.container3 > div {
-    background-color: pink;
-    width: 9%;
-    border-style: dashed;
-    font-size: large;
-    text-align: center;
-    padding-top: 10px;
+.final a {
+    background-color: #7780e0fd;
+    color: #fff;
 }
